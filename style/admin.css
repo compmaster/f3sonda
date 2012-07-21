@@ -1,0 +1,103 @@
+/* Tlo i czcionki */
+body {
+	background-color: #F2F2EE;
+	font: 13px Verdana,'Dejavu Sans',Helvetica,Arial;
+	text-align: center
+}
+
+/* Linki */
+a {text-decoration: none; color: #0000ff}
+
+/* Linki po najechaniu myszka */
+a:hover {color: #00aa00}
+
+/* Usun margines formularzy */
+form {margin: 0}
+
+/* Naglowki grup */
+fieldset {margin: 3px; padding: 8px 9px}
+legend {font-weight: bold}
+
+/* Aktywny input */
+input:focus {/*background-color: lightyellow;*/ color: blue}
+
+/* Table */
+table {background-color: #918E73; width: 100%; border-spacing: 1px}
+
+/* Komorki tabel */
+td {background-color: #ECE9D8; padding: 4px}
+
+/* Naglowki i podpisy tabel */
+th {padding: 3px; background-color: #EDEDED; font-weight: bold; color: #002651}
+
+/* Nagłówki w pomocy */
+h3 {font-size: 13px; margin: 3px 0}
+
+/* Naglowek */
+#top {
+	margin: auto;
+	width: 800px;
+	font-size: 19px;
+	border: 1px solid #918E73;
+	padding: 8px;
+	text-align: center;
+	background-color: #ECE9D8
+}
+
+/* Menu gorne */
+#menu {
+	margin: auto;
+	width: 800px;
+	padding: 5px 8px;
+	text-align: center;
+	border: 1px solid #918E73;
+	background-color: #ECE9D8;
+	border-top: 0
+}
+
+/* Lista menu - eleminacja marginesow */
+#menu ul {
+	margin: 0;
+	padding: 0
+}
+
+/* Element menu */
+#menu li {
+	display: inline;
+	padding: 0 7px;
+	font-weight: bold
+}
+
+/* Glowna czesc */
+#main {
+	width: 818px;
+	margin: 12px auto
+}
+
+/* Logowanie */
+#login {
+	margin: 50px auto;
+	font: 16px Cambria,Calibri,'DejaVu Sans',Verdana,Helvetica,Arial
+}
+#goon {
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: 3px 9px;
+	cursor: pointer
+}
+#goon:hover {border: 1px solid #AAAAAA}
+
+/* Sukces */
+.OK {
+	margin: 12px auto;
+	color: green
+}
+
+/* Porażka */
+.FAIL {
+	margin: 12px auto;
+	color: red;
+}
+
+/* Komórki z tekstem */
+.txt {background-color: #FAFAFA}

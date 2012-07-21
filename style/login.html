@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Logowanie do aplikacji F3Sonda</title>
+		<meta name="Robots" content="noindex">
+		<link rel="stylesheet" type="text/css" href="../style/admin.css">
+	</head>
+	<body id="login">
+		<form method="post">
+			<p><label for="H">{POLECENIE}</label></p>
+			<p><input type="password" name="H" id="H" size="30"></p>
+			<p><input type="submit" value="OK" id="goon"></p>
+		</form>
+		<div id="WC" style="display: none; font-size: 28px"><b>ZAPRASZAMY</b></div>
+		<script type="text/javascript">
+		document.forms[0][0].focus();
+		document.forms[0].onsubmit = function() {
+			if(this.H.value.length<5 || this.H.value.toUpperCase()=='ADMIN'){
+				alert('Hasło za krótkie!');
+				return false }
+			this.style.display = 'none';
+			document.getElementById('WC').style.display = '' }
+		</script>
+	</body>
+</html>
